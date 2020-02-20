@@ -1,0 +1,26 @@
+public class ChallengeTwo {
+     public void ForLoop(){
+        list<integer> listname = new list<integer>{1,2,3,4,5,6,7,8,9,10};
+            for(integer i : listname){
+                system.debug(i);
+            } 
+    }
+    public void WhileLoop(){
+        integer I = 0;
+        while (I < 10){
+            system.debug(I);
+            I++;
+        }
+    }
+    public void Iffy(){
+        integer N = 0;
+        if (N != 0){
+            system.debug('not zero');
+       
+        }
+        if (N == 0){
+		system.debug('It\'s zero');            
+        }
+        
+    }
+}

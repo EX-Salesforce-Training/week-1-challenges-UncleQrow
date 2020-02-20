@@ -1,0 +1,17 @@
+public class ChallengeOne {
+      integer num;
+    string	name;
+    Account person;
+    public void SetValue(){
+      num = 5;
+      name = 'Francesco';
+      person = new Account();
+      person.Name = 'Francesco';
+      
+    }
+    public void GetValue(){
+        system.debug(num);
+        system.debug(name);
+        system.debug(person.Name);
+    }
+}

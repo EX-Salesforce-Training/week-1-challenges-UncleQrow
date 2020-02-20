@@ -1,0 +1,14 @@
+public class ChallengeThree {
+    
+    	Account dude;
+    public void SetAccount(){
+        dude  = new Account();
+        dude.Name = 'Clint';
+        dude.AnnualRevenue = 100;
+        dude.Description = 'Large';
+    }
+    public void GetAccount(){
+        system.debug(dude);
+       
+    }
+}
